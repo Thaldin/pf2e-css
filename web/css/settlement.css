@@ -17,7 +17,8 @@ body {background-color:antiquewhite;}
 .settlement h4 {color:#000000;border-bottom:1px solid #000000;margin-bottom:0px; text-transform:uppercase;}
 
 /* Size and Attributes */
-.settlement .size {font-family: 'Tauri', sans-serif; float: right; text-align:right; font-size:.4cm; color:black; margin-bottom:-3px; text-transform:uppercase; border: 0px;}
+/* margin-right: 125px; is for Goblin Notebook edit popup */
+.settlement .size {font-family: 'Tauri', sans-serif; float:right; text-align:left; font-size:.4cm; color:black; margin-right: 125px; margin-bottom:-3px; text-transform:uppercase; border: 0px;}
 .settlement .taglist {height:22px;}
 .settlement .tag {font-family: 'Roboto Condensed', sans-serif; border-color:#DAC68A; border: 1px solid #DAC68A; border-left: 2px solid #DAC68A; border-right: 2px solid #DAC68A; border-radius:2px; background-color:#58180D; color:white; text-align:center; margin-top:2px; margin-right:2px; min-width:30px; float:left; margin-bottom:-5px; padding-left:3px; padding-right:3px; text-transform:uppercase; }
 .settlement .type {background-color: green !important;}
