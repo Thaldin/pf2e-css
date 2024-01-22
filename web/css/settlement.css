@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:800|Roboto+Condensed|Tauri|Teko:500|Changa+One|Gelasio|DM+Serif+Text:400i&display=swap');
+
+body {background-color:antiquewhite;}
+.settlement h4 {font-family:'Tauri', sans-serif;}
+.settlement h4 {color:#000000;border-bottom:1px solid #000000;margin-bottom:0px; text-transform:uppercase;}
+.settlement .size {font-family: 'Tauri', sans-serif; float: right; text-align:right; inline-block; font-size:.4cm; color:black; margin-bottom:-3px; text-transform:uppercase; border: 0px;}
