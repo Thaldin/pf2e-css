@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Eczar:800|Roboto+Condensed|Tauri|Teko:500|Changa+One|Gelasio|DM+Serif+Text:400i&display=swap');
 
+/* Header/Name */
 body {background-color:antiquewhite;}
 .settlement h4 {font-family:'Tauri', sans-serif;}
 .settlement h4 {color:#000000;border-bottom:1px solid #000000;margin-bottom:0px; text-transform:uppercase;}
+
+/* Size and Attributes */
 .settlement .size {font-family: 'Tauri', sans-serif; float: right; text-align:right; inline-block; font-size:.4cm; color:black; margin-bottom:-3px; text-transform:uppercase; border: 0px;}
+.settlement .taglist {height:22px;}
+.settlement .tag {font-family: 'Roboto Condensed', sans-serif; border-color:#DAC68A; border: 1px solid #DAC68A; border-left: 2px solid #DAC68A; border-right: 2px solid #DAC68A; border-radius:2px; background-color:#58180D; color:white; text-align:center; margin-top:2px; margin-right:2px; min-width:30px; float:left; margin-bottom:-5px; padding-left:3px; padding-right:3px; text-transform:uppercase; }
+.settlement .type {background-color: green !important;}
+.settlement .other {background-color:brown !important;}
+
+/* Description */
+.settlement .desc {padding-top:5px;}
+
+.settlement .govt:before {content: "Government "; font-weight: bold; padding-top:15px;}
+.settlement .pop:before {content: "Population "; font-weight: bold; padding-top:15px;}
+.settlement .lang:before {content: "Languages "; font-weight: bold; padding-top:15px;}
+.settlement .lang {border-bottom: 1px solid #000000; margin-bottom: 0px;}
