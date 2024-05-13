@@ -1,0 +1,50 @@
+/**
+A css stylesheet for Pathfinder 2E settlement descriptions (https://www.paizo.com/pathfinder).
+Based on the one found at GM Binder (https://www.gmbinder.com/share/-LxQNtitjvBT2eCVkPt1).
+To be converted for Goblin Notebook (https://www.the-goblin.net/notebook).
+
+Author:         Ed Abshire
+Initial Date:   21 Jan 2024
+Modify Date:    
+
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Eczar:800|Roboto+Condensed|Tauri|Teko:500|Changa+One|Gelasio|DM+Serif+Text:400i&display=swap');
+
+/* Header/Name */
+body {background-color:antiquewhite;}
+.settlement h4 {font-family:'Tauri', sans-serif;}
+.settlement h4 {color:#000000;border-bottom:1px solid #000000;margin-bottom:0px; text-transform:uppercase;}
+
+/* Size and Attributes */
+/* margin-right: 125px; is for Goblin Notebook edit popup */
+.settlement .size {font-family: 'Tauri', sans-serif; float:right; text-align:left; font-size:.4cm; color:black; margin-right: 125px; margin-bottom:-3px; text-transform:uppercase; border: 0px;}
+.settlement .taglist {height:22px;}
+.settlement .tag {font-family: 'Roboto Condensed', sans-serif; border-color:#DAC68A; border: 1px solid #DAC68A; border-left: 2px solid #DAC68A; border-right: 2px solid #DAC68A; border-radius:2px; background-color:#58180D; color:white; text-align:center; margin-top:2px; margin-right:2px; min-width:30px; float:left; margin-bottom:-5px; padding-left:3px; padding-right:3px; text-transform:uppercase; }
+.settlement .type {background-color: green !important;}
+.settlement .other {background-color:brown !important;}
+
+/* Description */
+.settlement .desc {padding-top:5px; padding-bottom: 5px;}
+
+.settlement .label {font-weight: bold;}
+.settlement .label-divider {font-weight: bold; border-bottom: 1px solid #000000; margin-bottom: 0px;}
+.settlement .label-desc::before {font-weight: bold; content:": ";display: inline;}
+.settlement .label-desc {font-weight: normal; display: inline;}
+
+/* First description Block, always end with .lang class */
+.settlement .govt:before {content: "Government "; font-weight: bold;}
+.settlement .pop:before {content: "Population "; font-weight: bold; }
+.settlement .lang:before {content: "Languages "; font-weight: bold; }
+.settlement .lang {border-bottom: 1px solid #000000; margin-bottom: 0px;}
+
+/* Second description block */
+.settlement .religion:before {content: "Religion "; font-weight: bold;}
+.settlement .threats:before {content: "Threats "; font-weight: bold;}
+.settlement .othertraits-name {font-weight: bold; }
+.settlement .othertraits-desc {font-weight: normal; display: inline;}
+
+/* NPCs - start npc section with .npcs class for divider */
+.settlement .npcs {border-top: 1px solid #000000; margin-top: 0px;}
+.settlement .npc-name {font-weight: bold;}
+.settlement .npc-desc {font-weight: normal; display: inline;}
