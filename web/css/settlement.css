@@ -25,7 +25,12 @@ body {background-color:antiquewhite;}
 .settlement .other {background-color:brown !important;}
 
 /* Description */
-.settlement .desc {padding-top:5px;}
+.settlement .desc {padding-top:5px; padding-bottom: 5px;}
+
+.settlement .label {font-weight: bold;}
+.settlement .label-divider {font-weight: bold; border-bottom: 1px solid #000000; margin-bottom: 0px;}
+.settlement .label-desc::before {font-weight: bold; content:": ";display: inline;}
+.settlement .label-desc {font-weight: normal; display: inline;}
 
 /* First description Block, always end with .lang class */
 .settlement .govt:before {content: "Government "; font-weight: bold;}
