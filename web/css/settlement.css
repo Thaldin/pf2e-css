@@ -27,6 +27,7 @@ body {background-color:antiquewhite;}
 /* Description */
 .settlement .desc {padding-top:5px; padding-bottom: 5px;}
 
+/* Labels for entries */
 .settlement .label {font-weight: bold;}
 .settlement .label-divider {font-weight: bold; border-bottom: 1px solid #000000; margin-bottom: 0px;}
 .settlement .label-desc::before {font-weight: bold; content:": ";display: inline;}
