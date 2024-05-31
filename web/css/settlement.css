@@ -32,18 +32,6 @@ body {background-color:antiquewhite;}
 .settlement .label-desc::before {font-weight: bold; content:": ";display: inline;}
 .settlement .label-desc {font-weight: normal; display: inline;}
 
-/* First description Block, always end with .lang class */
-.settlement .govt:before {content: "Government "; font-weight: bold;}
-.settlement .pop:before {content: "Population "; font-weight: bold; }
-.settlement .lang:before {content: "Languages "; font-weight: bold; }
-.settlement .lang {border-bottom: 1px solid #000000; margin-bottom: 0px;}
-
-/* Second description block */
-.settlement .religion:before {content: "Religion "; font-weight: bold;}
-.settlement .threats:before {content: "Threats "; font-weight: bold;}
-.settlement .othertraits-name {font-weight: bold; }
-.settlement .othertraits-desc {font-weight: normal; display: inline;}
-
 /* NPCs - start npc section with .npcs class for divider */
 .settlement .npcs {border-top: 1px solid #000000; margin-top: 0px;}
 .settlement .npc-name {font-weight: bold;}
